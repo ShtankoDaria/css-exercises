@@ -25,18 +25,26 @@ body {
   width: 50px;
   float: left;
 }
+   .box form{
+    float:right;
+   }
     /*Buttons*/
     #Button_nope{
     height:38px;
-    width: 55px;
     background: #837f83;
-    border:2px;
-    float: right bottom;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+   
     }
     #Button_ok{
       height:38px;
       width: 55px;
-      background: blue;
-      border:2px;
-      float: right bottom;
+      background: #1b6dd8;
+      border:0;
+      padding-left:20px;
+      padding-right:20px;
+      
       }
+
+
