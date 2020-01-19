@@ -69,7 +69,8 @@ body {
 @media(max-width:600px){
   .grid{
     display: grid;
-    grid-template-areas: "text" "red" "black";
+    grid-template-areas: "red text" 
+    "black text";
   }
 
   .box{
