@@ -1,7 +1,19 @@
-body {
-  margin: 0;
-}
-
 * {
   box-sizing: border-box;
 }
+
+.carousel {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: mandatory;
+  scroll-snap-align: start;
+}
+.slide {
+  width: 600px;
+  flex-shrink: 0;
+  height: 100%;
+}
+
